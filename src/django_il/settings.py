@@ -78,9 +78,16 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'django_il.urls'
 
-TEMPLATE_DIRS = (
-    os.path.join(SITE_ROOT, 'templates'),
+TEMPLATE_DIRS = ()
+
+TEMPLATE_CONTEXT_PROCESSORS = (
+    "django.core.context_processors.auth",
+    "django.core.context_processors.debug",
+    "django.core.context_processors.i18n",
+    "django.core.context_processors.media",
+    "bidiutils.context_processors.bidi",
 )
+
 
 INSTALLED_APPS = (
     'django.contrib.auth',
@@ -91,6 +98,7 @@ INSTALLED_APPS = (
     'localeurl',
     'multilingual',
     'django_il.core',
+    'bidiutils',
 )
 
 try:
