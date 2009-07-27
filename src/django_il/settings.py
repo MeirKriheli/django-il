@@ -97,10 +97,10 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.admin',
     'localeurl',
-    'multilingual',
-    'multilingual.flatpages',
     'django_il.core',
     'bidiutils',
+    'multilingual',
+    'multilingual.flatpages',
 )
 
 try:
