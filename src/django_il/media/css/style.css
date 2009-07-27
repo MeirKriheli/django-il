@@ -5,3 +5,6 @@ img {border:none}
 #logo { margin:0; padding:0; float: right }
 .dir_rtl #logo {float:left}
 .clearer {clear:both; height:1px; overflow:hidden;}
+#content {background:white; color:#444444; padding:20px;}
+#footer {background: #092e20; color:white; padding:5px 10px; border-top:4px #649a27 solid; border-bottom:2px #649a27 solid}
+
