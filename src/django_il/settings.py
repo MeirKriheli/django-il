@@ -32,6 +32,13 @@ LANGUAGE_CODE = 'he'
 # for localeurl
 PREFIX_DEFAULT_LOCALE = False
 
+# for multilingual
+LANGUAGES = (
+    ('he', 'Hebrew'),
+    ('en', 'English'),
+)
+DEFAULT_LANGUAGE = 1
+
 SITE_ID = 1
 
 # If you set this to False, Django will make some optimizations so as not
