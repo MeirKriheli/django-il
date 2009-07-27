@@ -29,9 +29,6 @@ TIME_ZONE = 'Israel'
 # http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGE_CODE = 'he'
 
-# for localeurl
-PREFIX_DEFAULT_LOCALE = False
-
 # for multilingual
 LANGUAGES = (
     ('he', 'Hebrew'),
@@ -96,6 +93,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.admin',
+    'django.contrib.markup',
     'localeurl',
     'django_il.core',
     'bidiutils',
