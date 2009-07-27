@@ -83,6 +83,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'localeurl',
     'multilingual',
+    'django_il.core',
 )
 
 try:
