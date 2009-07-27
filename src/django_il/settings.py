@@ -101,6 +101,10 @@ INSTALLED_APPS = (
     'multilingual.flatpages',
 )
 
+RESTRUCTUREDTEXT_FILTER_SETTINGS = {
+    'doctitle_xform': False,
+}
+
 try:
     from local_settings import *
 except ImportError, exp:
