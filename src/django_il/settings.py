@@ -74,6 +74,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'multilingual.flatpages.middleware.FlatpageFallbackMiddleware',
 )
 
 ROOT_URLCONF = 'django_il.urls'
@@ -97,6 +98,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'localeurl',
     'multilingual',
+    'multilingual.flatpages',
     'django_il.core',
     'bidiutils',
 )
