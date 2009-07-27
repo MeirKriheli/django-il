@@ -1,7 +1,7 @@
 body { margin:0; padding:10pt; background-color:#91cb47; font-family: Arial, Verdana, Serif;font-size:11pt; }
 body.dir_rtl { direction:rtl }
 img {border:none}
-#header {background: #092e20; color:white; padding:5px 10px; border-bottom:4px #649a27 solid; border-top:2px #649a27 solid}
+#header {background: #092e20; color:white; padding:5px 10px 0 10px; border-bottom:4px #649a27 solid; border-top:2px #649a27 solid}
 #logo { margin:0; padding:0; float: right }
 .dir_rtl #logo {float:left}
 .clearer {clear:both; height:1px; overflow:hidden;}
