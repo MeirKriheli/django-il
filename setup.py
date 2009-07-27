@@ -10,6 +10,6 @@ setup(
     author_email = 'meir@mksoft.co.il',
     packages = find_packages('src'),
     package_dir = {'': 'src'},
-    install_requires = ['setuptools'],
+    install_requires = ['setuptools', 'docutils', 'pygments'],
     zip_safe = False
 )
