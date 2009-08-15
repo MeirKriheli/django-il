@@ -10,3 +10,4 @@ img {border:none}
 #menu { margin:40px 20px 20px 20px; padding:0}
 #menu a, #menu a:visited {display:inline-block; color:white; text-decoration:none; font-weight:bold; padding:10px;}
 #menu a:hover {text-decoration:underline}
+.codeblock {direction:ltr; text-align:left; background:#f0f0f0; padding:2px 5px;}
