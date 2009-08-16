@@ -103,6 +103,9 @@ INSTALLED_APPS = (
 
 RESTRUCTUREDTEXT_FILTER_SETTINGS = {
     'doctitle_xform': False,
+    'file_insertion_enabled' : False,
+    'raw_enabled' : False,
+    'halt_level': 6,
 }
 
 try:

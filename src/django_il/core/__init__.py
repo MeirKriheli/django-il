@@ -51,7 +51,7 @@ VARIANTS = {
 }
 
 
-from docutils import nodes
+from docutils import nodes, urischemes
 from docutils.parsers.rst import directives
 
 from pygments import highlight
@@ -75,3 +75,8 @@ pygments_directive.content = 1
 pygments_directive.options = dict([(key, directives.flag) for key in VARIANTS])
 
 directives.register_directive('code-block', pygments_directive)
+
+# remove script schemas
+if urischemes.schemes.get('javascript',None):
+    del urischemes.schemes['javascript']
+    del urischemes.schemes['livescript']
