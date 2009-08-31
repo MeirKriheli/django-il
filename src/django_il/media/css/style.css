@@ -1,12 +1,24 @@
 body { margin:0; padding:10pt; background-color:#91cb47; font-family: Arial, Verdana, Serif;font-size:11pt; }
 body.dir_rtl { direction:rtl }
 img {border:none}
-#header {background: #092e20; color:white; padding:5px 10px 0 10px; border-bottom:4px #649a27 solid; border-top:2px #649a27 solid}
+#header {
+    background: #092e20; color:white; padding:5px 10px 0 10px;
+    border-bottom:4px #649a27 solid; border-top:1px #649a27 solid;
+    -moz-border-radius-topright: 8pt; -moz-border-radius-topleft: 8pt;
+    -webkit-border-top-right-radius: 8pt; -webkit-border-top-left-radius: 8pt;
+    border-top-right-radius: 8pt; border-top-left-radius: 8pt;
+}
 #logo { margin:0; padding:0; float: right }
 .dir_rtl #logo {float:left}
 .clearer {clear:both; height:1px; overflow:hidden;}
 #content {background:white; color:#444444; padding:20px;}
-#footer {background: #092e20; color:white; padding:5px 10px; border-top:4px #649a27 solid; border-bottom:2px #649a27 solid}
+#footer {
+    background: #092e20; color:white; padding:5px 10px;
+    border-top:4px #649a27 solid; border-bottom:1px #649a27 solid;
+    -moz-border-radius-bottomright: 8pt; -moz-border-radius-bottomleft: 8pt;
+    -webkit-border-bottom-right-radius: 8pt; -webkit-border-bottom-left-radius: 8pt;
+    border-bottom-right-radius: 8pt; border-bottom-left-radius: 8pt;
+}
 #menu { margin:40px 20px 20px 20px; padding:0}
 #menu a, #menu a:visited {display:inline-block; color:white; text-decoration:none; font-weight:bold; padding:10px;}
 #menu a:hover {text-decoration:underline}
